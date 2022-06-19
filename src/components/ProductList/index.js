@@ -4,9 +4,9 @@ export default class ProductList extends Component {
   render() {
     return (
       <div className="">
-        <h1 className="font-montserrat text-2xl font-semibold text-left py-4">
-          Ürünler
-        </h1>
+        <h3 className="font-montserrat text-2xl font-semibold text-left py-4">
+          {this.props.info.title}
+        </h3>
         <div className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2">
           <div class="max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
